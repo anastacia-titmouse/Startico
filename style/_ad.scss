@@ -1,0 +1,31 @@
+.ad {
+    background-color:  #DDF0A7;
+
+    .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    &__link {
+        &:hover, &:focus {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    &__text {
+        margin-left: 460px;
+        font-family: $fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        color: #162E3C;
+    }
+    &__icon {
+        &:hover path, &:focus path {
+            cursor: pointer;
+            fill: #FFFFFF;
+        }
+    }
+}

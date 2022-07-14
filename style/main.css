@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Space+Grotesk:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+* input {
+  -webkit-user-select: auto;
+     -moz-user-select: auto;
+      -ms-user-select: auto;
+          user-select: auto;
+}
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 64px;
+  -webkit-transition: background-color, 0.3s ease-in-out;
+  transition: background-color, 0.3s ease-in-out;
+}
+.button:hover, .button:focus {
+  cursor: pointer;
+}
+.button--transparent {
+  background-color: transparent;
+  border: 2px solid #162E3C;
+  color: #162E3C;
+}
+.button--transparent:hover, .button--transparent:focus {
+  cursor: pointer;
+  background-color: #DDF0A7;
+}
+.button--transparent:active {
+  background-color: #162E3C;
+  color: #FFFFFF;
+}
+.button--navy {
+  background-color: #162E3C;
+  color: #FFFFFF;
+  border: 2px solid #162E3C;
+}
+.button--navy:hover, .button--navy:focus {
+  cursor: pointer;
+  background-color: #DDF0A7;
+  color: #162E3C;
+}
+.button--navy:active {
+  background-color: #162E3C;
+  color: #FFFFFF;
+}
+
+.ad {
+  background-color: #DDF0A7;
+}
+.ad .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.ad__link:hover, .ad__link:focus {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.ad__text {
+  margin-left: 460px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #162E3C;
+}
+.ad__icon:hover path, .ad__icon:focus path {
+  cursor: pointer;
+  fill: #FFFFFF;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+.header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header__logo--wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__logo-link:hover, .header__logo-link:focus {
+  cursor: pointer;
+}
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 10px;
+}
+.header__list-item {
+  padding: 8px 22px;
+  border-radius: 64px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #162E3C;
+}
+.header__list-item:hover, .header__list-item:focus {
+  cursor: pointer;
+  background-color: #DDF0A7;
+}
+.header__button--transparent {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #162E3C;
+  padding: 8px 22px;
+  margin-right: 8px;
+}
+.header__button--navy {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  padding: 8px 22px;
+}
+.header__list-link:hover, .header__list-link:focus {
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
