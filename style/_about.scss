@@ -1,0 +1,101 @@
+.about {
+    position: relative;
+    .container {
+        background-color:#DDF0A7;
+        border-radius: 48px;
+        padding: 0px 50px 130px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__decoration--wrapper {
+        display: flex;
+        align-self: flex-end;
+
+    }
+    &__content {
+        padding: 0 250px;
+    }
+    &__main-title {
+        font-family: $fontFraunces;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        color: #162E3C;
+        margin-bottom: 30px;
+    }
+    &__text {
+        font-family: $fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #162E3C;
+        margin-bottom: 60px;
+    }
+    &__skills-block {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        justify-items: center;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+    &__skills-item {
+        background-color:  #162E3C;
+        border-radius: 24px;
+        padding: 40px;
+    }
+    &__image--wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 35px;
+    }
+    &__skills-title {
+        font-family: $fontFraunces;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    &__skills-text {
+        font-family: $fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__input {
+        display: flex;
+        gap: 25px;
+    }
+    &__button {
+        border: 2px solid #162E3C;
+        padding: 13px 25px;
+        &:hover, &:focus {
+            cursor: pointer;
+            background-color: #162E3C;
+            border: 2px solid #162E3C;
+            color: #FFFFFF;
+        }
+        &:active {
+            background-color: #162E3C;
+            color: #FFFFFF;
+        }
+    }
+    &__link {
+        &:hover, &:focus {
+            cursor: pointer;
+            color: #768e37;
+        }
+        &:active {
+            color: #162E3C;
+        }
+    }
+}

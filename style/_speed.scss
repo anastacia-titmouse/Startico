@@ -1,0 +1,91 @@
+.speed {
+    position: relative;
+    .container {
+        padding: 430px 0 130px;
+        display: flex;
+        gap: 80px;
+    }
+    &__image {
+        &--wrapper {
+            position: relative;
+        }
+    }
+    &__statistic-block {
+        position: absolute;
+        padding: 24px;
+        display: flex;
+        gap: 125px;
+        justify-content: space-between;
+        background-color: #DDF0A7;
+        border-radius: 24px;
+        width: 420px;
+        z-index: 1;
+        transform: translateY(350%);
+        right: 50%;
+    }
+    &__statistic-title {
+        font-family: $fontFraunces;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        color: #162E3C;
+    }
+    &__statistic-text {
+        font-family: $fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #162E3C;
+    }
+    &__content-image--wrapper {
+        position: absolute;
+        right: 0px;
+    }
+    &__content {
+        padding-top: 160px;
+        padding-right: 15px;
+    }
+    &__main-title {
+        font-family: $fontFraunces;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        color: #162E3C;
+        margin-bottom: 30px;
+    }
+    &__main-text {
+        font-family:$fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #49616E;
+        margin-bottom: 20px;
+    }
+    &__input {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    &__button {
+        padding: 13px 26px;
+        font-family: $fontSpaceGrotesk;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: #162E3C;
+    }
+    .material-icons {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 16px;
+        color: #162E3C;
+        &:hover, &:focus {
+            cursor: pointer;
+            color: #b4d754;
+        }
+        &:active {
+            color: #162E3C;
+        }
+    }
+}
