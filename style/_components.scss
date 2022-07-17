@@ -31,4 +31,18 @@
             color: #FFFFFF;
         }
     }
+    &--green {
+        background-color: #DDF0A7;
+        border: 2px solid #DDF0A7;
+        &:hover, &:focus {
+            cursor: pointer;
+            background-color: #FFFFFF;
+            border: 2px solid #FFFFFF;
+            color: #162E3C;
+        }
+        &:active {
+            background-color: #DDF0A7;
+            border: 2px solid #DDF0A7;
+        }
+    }
 }

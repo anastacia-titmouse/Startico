@@ -1,0 +1,25 @@
+.video {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        transform: translateY(-50%);
+        height: 600px;
+        width: 100%;
+        padding: 0;
+        background: url(./assets/images/video/video.png);
+    }
+    &__button {
+        font-family: $fontSpaceGrotesk;
+        padding: 14px 40px;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: #162E3C;
+    }
+}

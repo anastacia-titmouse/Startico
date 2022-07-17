@@ -1,0 +1,91 @@
+.banner {
+    background-color: #162E3C;
+    position: relative;
+    .container {
+        padding: 100px 300px 470px;
+    }
+    &__bg-image {
+        &--top-left {
+            position: absolute;
+            height: 250px;
+            left: -0.5%;
+            right: 87.01%;
+            top: 100px;
+        }
+        &--bottom-left {
+            position: absolute;
+            height: 275px;
+            left: -0.17%;
+            right: 81.94%;
+            top: 518px;
+        }
+        &--right {
+            position: absolute;
+            height: 240px;
+            left: 88.19%;
+            right: -6.25%;
+            top: 260px;
+        }
+    }
+    &__main-title {
+        font-family: $fontFraunces;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 67px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 25px;
+    }
+    &__text {
+        font-family: $fontFraunces;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+    }
+    &__button {
+        font-family: $fontSpaceGrotesk;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        color: #162E3C;
+        padding: 10px 25px;
+    }
+    &__link {
+        font-family: $fontSpaceGrotesk;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__input {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-bottom: 70px;
+    }
+    &__socials {
+        &--wrapper {
+            display: flex;
+            gap: 40px;
+        }
+    }
+    &__socials-icon {
+        &:hover path, &:focus path{
+            cursor: pointer;
+            fill: #DDF0A7;
+        }
+    }
+    .material-icons {
+        font-size: 15px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 13px;
+        transform: translateY(4px);
+    }
+}
