@@ -46,3 +46,29 @@
         }
     }
 }
+.badge {
+    padding: 4px 12px;
+    background-color: #DDF0A7;
+    border-radius: 64px;
+    &--wrapper {
+        margin-bottom: 15px;
+    }
+}
+.link {
+    font-family: fontSpaceGrotesk;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #162E3C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    &:hover, &:focus {
+        cursor: pointer;
+        color: #b4d754;
+    }
+    &:active {
+        color: #162E3C;
+    }
+}
